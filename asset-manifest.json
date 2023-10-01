@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/reactadminPanel/static/css/main.e33ba4a5.css",
-    "main.js": "/reactadminPanel/static/js/main.28a951e8.js",
+    "main.js": "/reactadminPanel/static/js/main.919c7798.js",
     "static/media/user1.jpg": "/reactadminPanel/static/media/user1.826511f6d29e8f7f2d0a.jpg",
     "index.html": "/reactadminPanel/index.html",
     "main.e33ba4a5.css.map": "/reactadminPanel/static/css/main.e33ba4a5.css.map",
-    "main.28a951e8.js.map": "/reactadminPanel/static/js/main.28a951e8.js.map"
+    "main.919c7798.js.map": "/reactadminPanel/static/js/main.919c7798.js.map"
   },
   "entrypoints": [
     "static/css/main.e33ba4a5.css",
-    "static/js/main.28a951e8.js"
+    "static/js/main.919c7798.js"
   ]
 }
