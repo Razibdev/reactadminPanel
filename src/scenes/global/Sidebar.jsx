@@ -28,9 +28,9 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
       }}
       onClick={() => setSelected(title)}
       icon={icon}
+      component={<Link to={to} />}
     >
       <Typography>{title}</Typography>
-      <Link to={to} />
     </MenuItem>
   );
 };
@@ -46,6 +46,9 @@ const Sidebars = () => {
       sx={{
         "& .ps-sidebar-container": {
           backgroundColor: `${colors.primary[400]} !important`,
+        },
+        "& .ps-sidebar-root":{
+          border: 'none'
         },
         "& .pro-icon-wrapper": {
           backgroundColor: "transparent !important",
